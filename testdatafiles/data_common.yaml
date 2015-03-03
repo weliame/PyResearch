@@ -1,0 +1,8 @@
+#YAML DATA FILE
+# -*-coding:utf-8-*-
+login:
+  usernameid: username
+  usernamevalue: weliam@163.com
+  passwordid: password
+  passwordvalue: abcd1234
+  loginbtn: //div[@class='center_login']/form/div[@class='div3']/input

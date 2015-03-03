@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config name="cnnicresearch">
+
+    <seleniumserver>
+    	<!--the selenium grid server & port -->
+    	<server>localhost</server>
+    	<port>4444</port>
+    </seleniumserver>
+    <browser>
+		<name>*iexplore</name>
+    </browser>
+	<weburl>
+    	<url>http://h.cnnicresearch.cn/</url>
+    	<description>the main url</description>
+    </weburl>
+    <userdata>
+    	<username>weliam@163.com</username>
+    	<password>abcd1234</password>
+    </userdata>
+    <screenshot>
+    	<path>d:\\ScreenShot_</path>
+    </screenshot>
+    <report>
+    	<reportroot></reportroot>
+    </report>
+    <datafile>
+    	<common>..\..\testdatafiles\data_common.yaml</common>
+        <mainpage>..\..\testdatafiles\data_mainpage.yaml</mainpage>
+        <usercenter>..\..\testdatafiles\data_usercenter.yaml</usercenter>
+    </datafile>
+    <pyconfig>
+    	<login></login>
+    </pyconfig>
+    <datasource>
+    	 <dsn>218.241.106.145/survey</dsn>
+    	 <username>common</username>
+    	 <passowrd>cnnic</passowrd>
+    </datasource>
+</config>
